@@ -16,12 +16,14 @@ Alejandro Gil Maya :trollface:
 - lordbluebanana@gmail.com
 ______
 
-### Proceso del Proyecto
+### Procesos del Proyecto
 
 El desarrollo del proyecto se dividio en tres(3) grandes partes:
 - Ingesta de datos
 - Preparacion de datos
 - Procesamiento de los datos
+
+Como entorno se uso Databricks pues el equipo considero que al no tener recursos en AWS sería bueno aprovechar este proyecto para conocer este ambiente.
 
 La primera parte consistia en obtener los datos de la base de datos all-news en formato csv (Esto es un formato en el que la estructura se encuentra separada por comas (,).
 Ademas este dataset se encontraba separado en varios datasets, por lo que fue necesario recurrir a funciones de SQL para lograr unirlos en uno solo, que resulto en uno consolidado de alrededor de 100000 registros.
